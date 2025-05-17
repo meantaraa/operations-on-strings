@@ -9,8 +9,7 @@ This repository contains a curated collection of string problems and solutions i
 - Pattern matching  
 - Sliding window  
 - Two pointers  
-- Hashing  
-- Trie and more  
+- Hashing  and more
 
 *Note: Problems are not yet categorized by difficulty level.*
 
