@@ -23,6 +23,7 @@ Open in any Java IDE (e.g., IntelliJ IDEA, Eclipse) or compile via terminal:
 ```bash
 javac YourFileName.java
 java YourFileName
+```
 
 🛠️ Requirements
 Java 8 or later
