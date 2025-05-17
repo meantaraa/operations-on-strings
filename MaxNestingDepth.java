@@ -19,18 +19,18 @@ class MaxNestingDepth {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        
+
         System.out.print("Enter the parentheses string: ");
         String s = scanner.nextLine();
-        
+
         int result = maxDepth(s);
         System.out.println("The maximum nesting depth is: " + result);
-        
+
         scanner.close();
     }
 }
 
 /*
- Time Complexity: O(n)
- Space Complexity: O(1)
+ * Time Complexity: O(n)
+ * Space Complexity: O(1)
  */

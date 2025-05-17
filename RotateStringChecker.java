@@ -13,10 +13,10 @@ public class RotateStringChecker {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Enter original string: ");
+        System.out.print("Enter original string: ");
         String s = sc.nextLine();
 
-        System.out.println("Enter goal string: ");
+        System.out.print("Enter goal string: ");
         String goal = sc.nextLine();
 
         if (rotateString(s, goal)) {
@@ -29,6 +29,6 @@ public class RotateStringChecker {
     }
 }
 /*
- Time Complexity: O(n)
- Space Complexity: O(n)
+ * Time Complexity: O(n)
+ * Space Complexity: O(n)
  */

@@ -24,13 +24,16 @@ class SortByFrequency {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter a string: ");
+        System.out.print("Enter a string: ");
         String input = scanner.nextLine();
         String result = frequencySort(input);
         System.out.println("Sorted string based on frequency: " + result);
+
+        scanner.close();
+
     }
 }
 /*
- Time Complexity: O(n)
- Space Complexity: O(n)
+ * Time Complexity: O(n)
+ * Space Complexity: O(n)
  */

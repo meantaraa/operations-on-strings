@@ -16,9 +16,11 @@ public class LargestOddNum {
         System.out.print("Enter a large number: ");
         String num = sc.nextLine();
         System.out.println("Largest odd number: " + largestOddNumber(num));
+
+        sc.close();
     }
 }
 /*
- Time Complexity: O(n)
- Space Complexity: O(1)
+ * Time Complexity: O(n)
+ * Space Complexity: O(1)
  */

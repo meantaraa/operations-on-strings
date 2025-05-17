@@ -15,7 +15,7 @@ class RomanToInteger {
 
         int result = 0;
         int n = s.length();
-        
+
         for (int i = 0; i < n; i++) {
             int value = romanMap.get(s.charAt(i));
             if (i < n - 1 && value < romanMap.get(s.charAt(i + 1))) {
@@ -30,13 +30,17 @@ class RomanToInteger {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        
-        System.out.println("Enter a Roman numeral:");
+
+        System.out.print("Enter a Roman numeral:");
         String roman = scanner.nextLine();
-        
+
         int integerValue = romanToInt(roman);
         System.out.println("Integer value: " + integerValue);
 
         scanner.close();
     }
 }
+/*
+ * Time Complexity: O(n)
+ * Space Complexity: O(1)
+ */

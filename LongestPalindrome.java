@@ -33,17 +33,17 @@ public class LongestPalindrome {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter a string: ");
+        System.out.print("Enter a string: ");
         String s = scanner.nextLine();
 
         String result = longestPalindrome(s);
-        
+
         System.out.println("Longest palindromic substring: " + result);
 
         scanner.close();
     }
 }
 /*
- Time Complexity: O(n^2)
- Space Complexity: O(1)
+ * Time Complexity: O(n^2)
+ * Space Complexity: O(1)
  */

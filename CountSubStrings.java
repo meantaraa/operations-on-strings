@@ -9,17 +9,17 @@ class CountSubstrings {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Enter a string: ");
+        System.out.print("Enter a string: ");
         String s = scanner.nextLine();
-        
+
         int result = countSubstrings(s);
-        
+
         System.out.println("Total number of substrings: " + result);
 
         scanner.close();
     }
 }
 /*
- Time Complexity: O(n)
- Space Complexity: O(n)
+ * Time Complexity: O(n)
+ * Space Complexity: O(n)
  */

@@ -35,10 +35,10 @@ public class IsomorphicStrings {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Enter first string: ");
+        System.out.print("Enter first string: ");
         String s = sc.nextLine();
 
-        System.out.println("Enter second string: ");
+        System.out.print("Enter second string: ");
         String t = sc.nextLine();
 
         if (isIsomorphic(s, t)) {

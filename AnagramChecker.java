@@ -23,24 +23,24 @@ class AnagramChecker {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        
-        System.out.println("Enter first string: ");
+
+        System.out.print("Enter first string: ");
         String s = scanner.nextLine();
-        
-        System.out.println("Enter second string: ");
+
+        System.out.print("Enter second string: ");
         String t = scanner.nextLine();
-        
+
         boolean result = isAnagram(s, t);
         if (result) {
             System.out.println("The strings are anagrams.");
         } else {
             System.out.println("The strings are not anagrams.");
         }
-        
+
         scanner.close();
     }
 }
 /*
- Time Complexity: O(n)
- Space Complexity: O(1)
+ * Time Complexity: O(n)
+ * Space Complexity: O(1)
  */
